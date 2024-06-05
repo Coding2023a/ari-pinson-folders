@@ -1,0 +1,17 @@
+#body {
+    background-color: aquamarine;
+}
+
+#btn1 {
+    padding: .3% 1%;
+    border: orangered solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+#btn1:hover {
+    background-color: rgb(99, 241, 99);
+}

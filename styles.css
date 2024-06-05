@@ -1,0 +1,34 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+p {
+    color: crimson;
+}
+li {
+    color: aqua;
+    
+}
+input {
+    color: r g b (999, 666, 333);
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+html {
+    background-color: rgb(5, 255, 5);
+}
+
+.buttons {
+    background-color: gold;
+    padding: 2%;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.button {
+    background-color: blue;
+    padding: 2%;
+    border: 1px solid;
+    border-radius: 50%;
+}

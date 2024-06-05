@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="dom-manipulation.js" defer></script>
+    <title>DOM- Manipulation Examples</title>
+</head>
+<body>
+    <div>
+          <h1 id="changeMe">Click the button to change me!</h1>
+          <button onclick="changeText()">Change Text</button>
+    </div>
+    <br>
+
+    <div><button onclick="toggleVisiblity()">toggleVisiblity</button></div>
+    <div id="hiddenElement" class="hidden">This element is hidden by default!</div>
+
+    <div>
+        <ul id="myList">
+            <div>
+                <li></li>
+                    <input><input type="checkbox">
+            </div>
+            <div>
+                <li></li>
+                    <input><input type="checkbox">
+            </div>
+            <div>
+                <li></li>
+                    <input><input type="checkbox">
+            </div>
+        </ul>
+
+        <button onclick="addItem()">Add Item</button>
+    </div>
+    </body>
+    </html>
