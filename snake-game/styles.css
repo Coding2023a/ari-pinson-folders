@@ -14,7 +14,7 @@ body {
     width: 400px;
     height: 400px;
     border: 10px solid #333;
-    background-color: #19f5d8;
+background: linear-gradient(to right, rgb(1, 97, 97), lightblue, rgb(1, 97, 97))
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(20, 1fr);
